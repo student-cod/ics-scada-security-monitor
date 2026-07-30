@@ -1,0 +1,20 @@
+# Java
+backend/target/
+*.class
+
+# Python
+ml-service/venv/
+ml-service/__pycache__/
+*.pkl
+
+# Dataset (too large for GitHub, each teammate keeps their own local copy)
+ml-service/data/
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# General
+.env
+.DS_Store
+.vscode/
